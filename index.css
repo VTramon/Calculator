@@ -9,8 +9,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: sans-serif;
+  height: 100vh;
+  width: 100vw;
   background-color: #bb9457;
+  font-family: sans-serif;
 }
 
 .container {
@@ -26,6 +28,7 @@ body {
   margin: 0 0.4rem 1.5rem 0.4rem;
   text-align: right;
   font-size: 3rem;
+  background-color: #6d4b33;
 
   padding-bottom: 0.5rem;
   overflow-y: hidden;
@@ -39,10 +42,11 @@ body {
 }
 
 .output {
-  height: 40%;
+  height: 50px;
   max-width: 334px;
   text-align: right;
   font-size: 2rem;
+  color: white;
 
   padding-bottom: 0.5rem;
 }
@@ -63,7 +67,6 @@ body {
   align-items: center;
   height: 70px;
   width: 70px;
-  background-color: #99582a;
   border-radius: 30px;
   margin: 9px;
   cursor: pointer;
@@ -74,10 +77,34 @@ body {
   width: 157px;
 }
 
+.numbers { 
+  background-color: #99582a;
+}
+
+.dot { 
+  background-color: #99582a;
+}
+
+.numbers:hover {
+  background-color: #7c4924;
+}
+
+.dot:hover {
+  background-color: #7c4924;
+}
+
 .cream {
   background-color: #ffe6a7;
 }
 
+.cream:hover {
+  background-color: #e9cb80;
+}
+
 .persian {
   background-color: #6f1d1b;
+}
+
+.persian:hover {
+  background-color: #5c1514;
 }
